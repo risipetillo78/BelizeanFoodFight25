@@ -1519,7 +1519,7 @@ function drawShareButton(x, y) {
   
   // Use the Facebook sharer URL which will pick up the Open Graph meta tags
   // This ensures the image specified in og:image will be included in the share
-  let shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href) + "&quote=" + encodeURIComponent(shareMessage);
+  let shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent("https://risipetillo78.github.io/BelizeanFoodFight25/") + "&quote=" + encodeURIComponent(shareMessage);
   
   // Store the share URL for use in mousePressed
   window.shareUrl = shareUrl;
