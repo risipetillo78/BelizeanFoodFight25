@@ -1570,7 +1570,7 @@ function mousePressed() {
     }
     
     // Check if share button was clicked (adjusted for new position 20px higher)
-    if (mouseX > width/2 - 70 && mouseX < width/2 + 70 && mouseY > footerY - 35 && mouseY < footerY - 5) {
+    if (mouseX > width/2 - 75 && mouseX < width/2 + 75 && mouseY > footerY - 25 && mouseY < footerY + 5) {
       if (window.shareUrl) {
         window.open(window.shareUrl, '_blank');
       }
